@@ -30,3 +30,5 @@ title: Neural Tangent Kernel
 	- Define $$\Phi_K:\mathcal{F}^*\to\mathcal{F}$$, $$\mu=\langle d,\cdot\rangle_{p^{in}}\to f_\mu=\Phi_K(\mu)$$ with $$f_{\mu, i}=\mu K_i(x, \cdot) = \langle d, K_{i, \cdot}(x,\cdot)\rangle_{p^{in}}$$
 	- The derivative of $$C$$ at $$f_0\in\mathcal{F}$$ can be viewed as an element in $$\mathcal{F}^*$$, denoted as $$\partial_{f}^\text{in}C\vert _{f_0}=\langle d\vert_{f_0},\cdot\rangle_{p^{in}}$$
 	- Define **kernel gradient** $$\nabla_K C\vert_{f_0} = \Phi_K(\partial_{f}^\text{in}C\vert _{f_0})\approx \frac{1}{N}\displaystyle\sum_{j=1}^N K(x, x_j)d\vert_{f_0}(x_j)$$
+	- Random functions approximation:
+		-
