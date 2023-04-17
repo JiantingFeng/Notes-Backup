@@ -4,3 +4,4 @@
 	- Gaussian distribution on one single point: $$P(y_i\vert x_i; w)=\mathcal{N}(w^Tx, \sigma^2 I)$$
 	- MLE: $$\displaystyle p(\mathcal{D}\vert w) = \prod_{i=1}^n P(y_i\vert x_i; w)$$
 	- MAP: $$p(w\vert \mathcal D) = \dfrac{P(\mathcal{D}\vert w) p(w)}{Z}$$
+	-
