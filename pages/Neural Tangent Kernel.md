@@ -31,4 +31,4 @@ title: Neural Tangent Kernel
 	- The derivative of $$C$$ at $$f_0\in\mathcal{F}$$ can be viewed as an element in $$\mathcal{F}^*$$, denoted as $$\partial_{f}^\text{in}C\vert _{f_0}=\langle d\vert_{f_0},\cdot\rangle_{p^{in}}$$
 	- Define **kernel gradient** $$\nabla_K C\vert_{f_0} = \Phi_K(\partial_{f}^\text{in}C\vert _{f_0})\approx \frac{1}{N}\displaystyle\sum_{j=1}^N K(x, x_j)d\vert_{f_0}(x_j)$$
 	- Random functions approximation:
-		-
+		- The author follows [[Random features for large-scale kernel machines]]
