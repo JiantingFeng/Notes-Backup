@@ -1,0 +1,34 @@
+\chapter{Distribution function}
+\section{Monotone functions}
+
+Let $f: \sR \to \sR$ be an increasing function, that is, for any two $x_1, x_2\in \sR$
+\[
+x_1<x_2 \Rightarrow f(x_1)\leq f(x_2)
+\]
+
+The notation $t\uparrow x$ means $t<x, t\to x$; $t\downarrow x$ means $t > x, t \to x$. 
+
+\begin{enumerate}
+	\item For each $x\in(-\infty, \infty)$, both \textit{unilateral limits}
+		\[
+			\lim\limits_{t\uparrow x} f(t) = f(x-)\quad and \quad \lim\limits_{t\downarrow x} f(t) = f(x+)
+		\]
+		exist and are finite.
+	\item Limits at infinity
+		\[
+			\lim\limits_{t\uparrow +\infty} f(t) = f(+\infty)\quad and \quad \lim\limits_{t\downarrow -\infty} f(t) = f(-\infty)
+		\]
+		exist; the former could be $+\infty$ and the later $-\infty$.
+	\item For each $x$, $f(x)$ is continuous iff
+		\[
+			f(x+) = f(x) = f(x-)
+		\]
+		In general, if the equality doesn't hold, we say $f$ has a jump at $x$.
+\end{enumerate}
+Indeed, for any monotone function, we have following claim:
+\begin{claim}
+	Suppose $f$ monotony increase and has a discontinuity at $x_0$, suppose 
+	\[
+		f(x_0) < \lim\limits_{x\downarrow x_0} f(x)
+	\]
+\end{claim}

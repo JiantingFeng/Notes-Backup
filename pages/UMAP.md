@@ -1,0 +1,15 @@
+- [UMAP: Uniform Manifold Approximation and Projection](https://arxiv.org/pdf/1802.03426.pdf)
+	- Advantage: Scaling well with number of data points and dimension; preserve the global structure.
+		- e.g., for fashion-MNIST, from $$768\dim$$ to $$3\dim$$, t-SNE(scikit-learn implementation) uses 45 minutes, yet UMAP takes 3 minutes.
+	- Theoretical Foundation:
+		- Uniform distribution of data on a manifold and geodesic approximation
+			- Notation: $$\mathcal{M}$$ manifold, $$g$$ riemann metric on $$\mathcal{M}$$. For each $$p\in \mathcal{M}$$, we have $$g_p\in T_p\mathcal{M}$$, which is a inner product in tangent space.
+			- Lemma 1. If $$g$$ is locally constant diagonal about $$p$$ in an open neighbourhood, then in a ball centered at $$p$$ with volumn $$\dfrac{\pi^{n/2}}{\Gamma(n/2+1)}$$ w.r.t. $$g$$, the geodesic distance from $$p$$ to any $$q\in B$$ is $$\frac{1}{r}d_{\mathbb{R}^n}(p, q)$$.
+			- If data points are uniformly distributed, the the number of points contained in the ball with same volume is constant, i.e. the number of data points in $$B$$ doesn't related to its position.
+		- Fuzzy topological representation:
+			- Simplicial set
+				- Simplicial sets are __higher-dimensional generalizations of directed graphs, partially ordered sets and categories__.
+				- A contravariant functor from the simplex catagory to category of sets
+					- contravariant functor: A functor is called contravariant if it reverses the directions of arrows, i.e., every arrow $$f: A\to B$$ is mapped to $$F(f):F(B)\to F(A)$$
+				- Defn. The category $$\Delta$$ has as objects the finite order sets $$[n]=\{1, \cdots, n\}$$ with morphisms given by (non-strictly) order-preserving maps.
+				- Defn. A simplicial set is a functor from $$\Delta^\text{op}$$ to **Sets**, the category of sets; that is a contravariant functor from $$\Delta$$ to **Sets**.

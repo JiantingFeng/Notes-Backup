@@ -1,0 +1,7 @@
+\babel@toc {english}{}\relax 
+\contentsline {part}{I\hspace {1em}High Dimensional Statistics}{1}{}%
+\contentsline {section}{\numberline {1}Concentration Inequalities}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Sub-Gaussian variables and Hoeffding bounds}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Sub-exponential variables and Bernstein bounds}{5}{}%
+\contentsline {part}{II\hspace {1em}Machine Learning Prior}{8}{}%
+\contentsline {section}{\numberline {2}Regu}{8}{}%

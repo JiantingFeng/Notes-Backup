@@ -1,0 +1,32 @@
+---
+title: Neural Tangent Kernel
+---
+
+- Link: https://arxiv.org/pdf/1806.07572.pdf
+- Main idea
+	- **Neural Networks are equivalent to Gaussian process in infinite width setting.**
+	- Study the NTK makes it possible to learn directly in function space, rather than parameter space.
+	- Related to kernel methods, which is well studied.
+- Neural Network
+	- Consider fully-connected NN, with $$n_0, \cdots, n_L$$ neurons in each layer.
+	- Activation $$\sigma$$ is $$C^2$$ function
+	- NN realization function $$F^{(L)}:\mathbb{R}^P\to\mathcal{F}$$, mapping $$\theta\in\mathbb{R}^P$$ to $$f_\theta\in\mathcal{F}$$
+	- Inner product in $$\mathcal{F}$$ as: $$\langle f, g\rangle_{p^{in}} = \mathbb{E}_{x\in p^{in}}\left[f(x)^Tg(x)\right]$$
+	- $$p_{in}$$ often use the empirical distribution on a finite dataset (sum of dirac measures)
+- Kernel gradient
+	- The training consists optimizing $$f_\theta\in\mathcal{F}$$ w.r.t. cost a given function $$C:\mathcal{F}\to \mathbb{R}$$.
+	- Generally, $$C\circ F^{(L)}$$ is highly nonconvex.
+	- During training, the NN $$f_\theta$$ follows a descent along the kernel gradient w.r.t. NTK, makes it possible to study the function space.
+	- Def (Kernel):
+		- $$K: \mathbb{R^{n_0}}\times \mathbb{R^{n_0}}\to \mathbb{R^{n_L\times n_L}}$$
+		- $$K(x, x^\prime)\mapsto \bm{M}\in \mathbb{R^{n_L\times n_L}}$$
+		- $$K$$ is **positive symmetric** in $$\mathcal{F}\otimes \mathcal{F}$$, $$\otimes$$ is ((b3381508-b7c1-475b-8cb7-ff9f08aefb01))
+			- product of Hilbert space
+			  id:: b3381508-b7c1-475b-8cb7-ff9f08aefb01
+			- $$\langle \phi_1\otimes \phi_2, \psi_1\otimes \psi_2\rangle_{H_1\otimes H2} =\langle\phi_1, \psi_1\rangle_{H_1}\langle\phi_2, \psi_2\rangle_{H_2}$$
+		- $$\langle f, g\rangle_K=\mathbb{E}_{x,x^\prime\sim p^{in}}[f(x)^TK(x, x^\prime)g(x^\prime)]$$
+	- Consider dual $$\mathcal{F}^*$$, i.e. $$\mu: \mathcal{F}\to \mathbb{R}$$, by Riesz repr. theorem, which can be written as $$\mu=\langle d, \cdot\rangle_{p^{in}}$$ for some $$d\in\mathcal{F}$$.
+	- Partial application o fkernel $$K_{i, \cdot}(x, \cdot)\in \mathcal{F}$$ which is equivalent to $$\mathbb{R}^{n_0}\to\mathbb{R}^{n_L}$$
+	- Define $$\Phi_K:\mathcal{F}^*\to\mathcal{F}$$, $$\mu=\langle d,\cdot\rangle_{p^{in}}\to f_\mu=\Phi_K(\mu)$$ with $$f_{\mu, i}=\mu K_i(x, \cdot) = \langle d, K_{i, \cdot}(x,\cdot)\rangle_{p^{in}}$$
+	- The derivative of $$C$$ at $$f_0\in\mathcal{F}$$ can be viewed as an element in $$\mathcal{F}^*$$, denoted as $$\partial_{f}^\text{in}C\vert _{f_0}=\langle d\vert_{f_0},\cdot\rangle_{p^{in}}$$
+	- Define **kernel gradient** $$\nabla_K C\vert_{f_0} = \Phi_K(\partial_{f}^\text{in}C\vert _{f_0})\approx \frac{1}{N}\displaystyle\sum_{j=1}^N K(x, x_j)d\vert_{f_0}(x_j)$$
