@@ -9,5 +9,7 @@
 		- Therefore, $$P(y\vert x, \mathcal D)$$ is still Gaussian, we don't need to calculate the exact form, because we know how Gaussian looks like.
 		- $$P(y\vert x, \mathcal D) \sim \mathcal{N}(\mu, \Sigma)$$
 - Definition [Gaussian Process]
-	- A GP is a (potentially infinite) collection of random variables such that the joint distribution of every finite
+	- A GP is a (potentially infinite) collection of random variables such that the joint distribution of every finite subset of RVs is multivariate Gaussian
+	- $$f\sim GP(\mu, k)$$
+	- where $$\mu(x)$$ and $$k(x, x^\prime)$$ are mean and covariance function.
 -
