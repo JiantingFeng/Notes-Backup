@@ -1,4 +1,4 @@
 - Gaussian process is equivalent to the bayesian learning with exact 1 infinite width hidden layer.
 - Idea: **prior distribution over infinite dimensional functions**.
 - Gaussian Process Regression
-	- MLE: $$p(\mathcal{D}\vert $$
+	- MLE: $$p(\mathcal{D}\vert w) = \prod_{i=1}^n P(y_i\vert x_i; w)$$
