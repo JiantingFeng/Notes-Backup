@@ -7,5 +7,5 @@
 	- Directly model the distribution of $$y$$ (w/o learning the model)
 		- $$P(y\vert x, \mathcal D) = \int_w \underbrace{P(y\vert x, w)}_{\text{Gaussian}} \underbrace{P(w\vert \mathcal D)}_{\text{Gaussian}}dw$$
 		- Therefore, $$P(y\vert x, \mathcal D)$$ is still Gaussian, we don't need to calculate the exact form, because we know how Gaussian looks like.
-		- $$P(y\vert x, \mathcal D) \sim \mathcal{N}(\mu, \sigma^2)$$
+		- $$P(y\vert x, \mathcal D) \sim \mathcal{N}(\mu, \Sigma)$$
 -
