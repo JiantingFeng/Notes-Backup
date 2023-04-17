@@ -2,4 +2,4 @@
 - Idea: **prior distribution over infinite dimensional functions**.
 - Gaussian Process Regression
 	- MLE: $$\displaystyle p(\mathcal{D}\vert w) = \prod_{i=1}^n P(y_i\vert x_i; w)$$
-	- MAP: $$p(w\vert \mathcal D)$$
+	- MAP: $$p(w\vert \mathcal D) = \dfrac{P(\mathcal{D}\vert w) p(w)}{Z}$$
