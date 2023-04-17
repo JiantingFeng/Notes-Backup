@@ -6,5 +6,6 @@
 	- MAP: $$P(w\vert \mathcal D) = \dfrac{P(\mathcal{D}\vert w) P(w)}{Z}$$
 	- Directly model the distribution of $$y$$ (w/o learning the model)
 		- $$P(y\vert x, \mathcal D) = \int_w \underbrace{P(y\vert x, w)}_{\text{Gaussian}} \underbrace{P(w\vert \mathcal D)}_{\text{Gaussian}}dw$$
-		- Therefore, $$P(y\vert x, \mathcal D)$$ is still Gaussian.
+		- Therefore, $$P(y\vert x, \mathcal D)$$ is still Gaussian, we don't need to calculate the
 		-
+-
