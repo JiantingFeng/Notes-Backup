@@ -1,0 +1,1 @@
+- Gaussian process is equivalent to the bayesian learning with exact 1 infinite width
