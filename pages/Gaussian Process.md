@@ -5,5 +5,6 @@
 	- MLE: $$\displaystyle P(\mathcal{D}\vert w) = \prod_{i=1}^n P(y_i\vert x_i; w)$$
 	- MAP: $$P(w\vert \mathcal D) = \dfrac{P(\mathcal{D}\vert w) P(w)}{Z}$$
 	- Directly model the distribution of $$y$$
-		- $$P(y\vert x, \mathcal D) = \int_w \underbrace{P(y\vert x, w)}_{\text{Gaussian distribution}} \underbrace{P(w\vert \mathcal D)}_{\text{Gaussian distribution}}dw$$
+		- $$P(y\vert x, \mathcal D) = \int_w \underbrace{P(y\vert x, w)}_{\text{Gaussian}} \underbrace{P(w\vert \mathcal D)}_{\text{Gaussian}}dw$$
+		- Therefore, $$P$$
 		-
