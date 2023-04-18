@@ -296,6 +296,9 @@ Define
 \[
 	Y_k = \EE[f(X)\vert X_1, \cdots, X_k]\quad \text{ for } k=1,\cdots, n-1
 \]
-and $Y_0 = \EE[f(X)]$, $Y_n=f(X)$.
+and $Y_0 = \EE[f(X)]$, $Y_n=f(X)$. Based on telescoping decomposition
+\[
+	f(X)-\EE[f(X)] = Y_n-Y_0 =\sum_{k=1}^n\underbrace{Y_k-Y_{k-1}}_{=D_k}
+\]
 \printbibliography
 \end{document}
