@@ -16,5 +16,66 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{NIPS2007_013a006f}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b2a647ccd84fe455f793167cbe4e9c81}{%
+           family={Rahimi},
+           familyi={R\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3503059e1c0c778913607c87d8c5173a}{%
+           family={Recht},
+           familyi={R\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=ff02bff194bb6f49f602c40fc811cfb9}{%
+           family={Platt},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0ffc3f404f0baef79d60dfb5034ff37a}{%
+           family={Koller},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0c73d830a66b0ad6defa1ca64e93b608}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8ec404ca5b03be9dcf48f55fe949af78}{%
+           family={Roweis},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \strng{fullhash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \strng{bibnamehash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \strng{authorbibnamehash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \strng{authornamehash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \strng{authorfullhash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \strng{editorbibnamehash}{5246c71ebe304e32befb42f3a15eb060}
+      \strng{editornamehash}{5246c71ebe304e32befb42f3a15eb060}
+      \strng{editorfullhash}{4108c3f67d0ea47e418b33b93d03233e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Random Features for Large-Scale Kernel Machines}
+      \field{volume}{20}
+      \field{year}{2007}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
