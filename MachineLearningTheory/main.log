@@ -423,4 +423,495 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@maxitems=\count315
 \c@minitems=\count316
 \c@citecounter=\count317
-\c@maxcitecounter=\coun
+\c@maxcitecounter=\count318
+\c@savedcitecounter=\count319
+\c@uniquelist=\count320
+\c@uniquename=\count321
+\c@refsection=\count322
+\c@refsegment=\count323
+\c@maxextratitle=\count324
+\c@maxextratitleyear=\count325
+\c@maxextraname=\count326
+\c@maxextradate=\count327
+\c@maxextraalpha=\count328
+\c@abbrvpenalty=\count329
+\c@highnamepenalty=\count330
+\c@lownamepenalty=\count331
+\c@maxparens=\count332
+\c@parenlevel=\count333
+\blx@tempcnta=\count334
+\blx@tempcntb=\count335
+\blx@tempcntc=\count336
+\c@blx@maxsection=\count337
+\blx@maxsegment@0=\count338
+\blx@notetype=\count339
+\blx@parenlevel@text=\count340
+\blx@parenlevel@foot=\count341
+\blx@sectionciteorder@0=\count342
+\blx@sectionciteorderinternal@0=\count343
+\blx@entrysetcounter=\count344
+\blx@biblioinstance=\count345
+\labelnumberwidth=\skip61
+\labelalphawidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language88
+\c@mincomprange=\count346
+\c@maxcomprange=\count347
+\c@mincompwidth=\count348
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count349
+\c@savedafterword=\count350
+\c@annotator=\count351
+\c@savedannotator=\count352
+\c@author=\count353
+\c@savedauthor=\count354
+\c@bookauthor=\count355
+\c@savedbookauthor=\count356
+\c@commentator=\count357
+\c@savedcommentator=\count358
+\c@editor=\count359
+\c@savededitor=\count360
+\c@editora=\count361
+\c@savededitora=\count362
+\c@editorb=\count363
+\c@savededitorb=\count364
+\c@editorc=\count365
+\c@savededitorc=\count366
+\c@foreword=\count367
+\c@savedforeword=\count368
+\c@holder=\count369
+\c@savedholder=\count370
+\c@introduction=\count371
+\c@savedintroduction=\count372
+\c@namea=\count373
+\c@savednamea=\count374
+\c@nameb=\count375
+\c@savednameb=\count376
+\c@namec=\count377
+\c@savednamec=\count378
+\c@translator=\count379
+\c@savedtranslator=\count380
+\c@shortauthor=\count381
+\c@savedshortauthor=\count382
+\c@shorteditor=\count383
+\c@savedshorteditor=\count384
+\c@labelname=\count385
+\c@savedlabelname=\count386
+\c@institution=\count387
+\c@savedinstitution=\count388
+\c@lista=\count389
+\c@savedlista=\count390
+\c@listb=\count391
+\c@savedlistb=\count392
+\c@listc=\count393
+\c@savedlistc=\count394
+\c@listd=\count395
+\c@savedlistd=\count396
+\c@liste=\count397
+\c@savedliste=\count398
+\c@listf=\count399
+\c@savedlistf=\count400
+\c@location=\count401
+\c@savedlocation=\count402
+\c@organization=\count403
+\c@savedorganization=\count404
+\c@origlocation=\count405
+\c@savedoriglocation=\count406
+\c@origpublisher=\count407
+\c@savedorigpublisher=\count408
+\c@publisher=\count409
+\c@savedpublisher=\count410
+\c@language=\count411
+\c@savedlanguage=\count412
+\c@origlanguage=\count413
+\c@savedoriglanguage=\count414
+\c@pageref=\count415
+\c@savedpageref=\count416
+\shorthandwidth=\skip69
+\shortjournalwidth=\skip70
+\shortserieswidth=\skip71
+\shorttitlewidth=\skip72
+\shortauthorwidth=\skip73
+\shorteditorwidth=\skip74
+\locallabelnumberwidth=\skip75
+\locallabelalphawidth=\skip76
+\localshorthandwidth=\skip77
+\localshortjournalwidth=\skip78
+\localshortserieswidth=\skip79
+\localshorttitlewidth=\skip80
+\localshortauthorwidth=\skip81
+\localshorteditorwidth=\skip82
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count417
+\c@textcitetotal=\count418
+\c@textcitemaxnames=\count419
+\c@biburlbigbreakpenalty=\count420
+\c@biburlbreakpenalty=\count421
+\c@biburlnumpenalty=\count422
+\c@biburlucpenalty=\count423
+\c@biburllcpenalty=\count424
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count425
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count426
+\c@bbx:relatedtotal=\count427
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count428
+\l__pdf_internal_box=\box66
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2023-02-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count429
+\csq@gtype=\count430
+\csq@glevel=\count431
+\csq@qlevel=\count432
+\csq@maxlvl=\count433
+\csq@tshold=\count434
+\csq@ltx@everypar=\toks44
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box67
+\pgfnodeparttwobox=\box68
+\pgfnodepartthreebox=\box69
+\pgfnodepartfourbox=\box70
+\pgfnodeparttwentybox=\box71
+\pgfnodepartnineteenbox=\box72
+\pgfnodeparteighteenbox=\box73
+\pgfnodepartseventeenbox=\box74
+\pgfnodepartsixteenbox=\box75
+\pgfnodepartfifteenbox=\box76
+\pgfnodepartfourteenbox=\box77
+\pgfnodepartthirteenbox=\box78
+\pgfnodeparttwelvebox=\box79
+\pgfnodepartelevenbox=\box80
+\pgfnodeparttenbox=\box81
+\pgfnodepartninebox=\box82
+\pgfnodeparteightbox=\box83
+\pgfnodepartsevenbox=\box84
+\pgfnodepartsixbox=\box85
+\pgfnodepartfivebox=\box86
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen260
+\lightrulewidth=\dimen261
+\cmidrulewidth=\dimen262
+\belowrulesep=\dimen263
+\belowbottomsep=\dimen264
+\aboverulesep=\dimen265
+\abovetopsep=\dimen266
+\cmidrulesep=\dimen267
+\cmidrulekern=\dimen268
+\defaultaddspace=\dimen269
+\@cmidla=\count435
+\@cmidlb=\count436
+\@aboverulesep=\dimen270
+\@belowrulesep=\dimen271
+\@thisruleclass=\count437
+\@lastruleclass=\count438
+\@thisrulewidth=\dimen272
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip83
+\L@UnitsRaiseTextstyle=\skip84
+\L@UnitsRaiseScriptstyle=\skip85
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count439
+\FV@InFile=\read5
+\FV@TabBox=\box87
+\c@FancyVerbLine=\count440
+\FV@StepNumber=\count441
+\FV@OutFile=\write5
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count442
+\mult@box=\box88
+\multicol@leftmargin=\dimen273
+\c@unbalance=\count443
+\c@collectmore=\count444
+\doublecol@number=\count445
+\multicoltolerance=\count446
+\multicolpretolerance=\count447
+\full@width=\dimen274
+\page@free=\dimen275
+\premulticols=\dimen276
+\postmulticols=\dimen277
+\multicolsep=\skip86
+\multicolbaselineskip=\skip87
+\partial@page=\box89
+\last@line=\box90
+\maxbalancingoverflow=\dimen278
+\mult@rightbox=\box91
+\mult@grightbox=\box92
+\mult@firstbox=\box93
+\mult@gfirstbox=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\c@minrows=\count448
+\c@columnbadness=\count449
+\c@finalcolumnbadness=\count450
+\last@try=\dimen279
+\multicolovershoot=\dimen280
+\multicolundershoot=\dimen281
+\mult@nat@firstbox=\box131
+\colbreak@box=\box132
+\mc@col@check@num=\count451
+)
+\c@thm=\count452
+\c@claim=\count453
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+ (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count454
+\scratchdimen=\dimen282
+\scratchbox=\box133
+\nofMPsegments=\count455
+\nofMParguments=\count456
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count457
+\MPscratchDim=\dimen283
+\MPnumerator=\count458
+\makeMPintoPDFobject=\count459
+\everyMPtoPDFconversion=\toks46
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Info: Redefining \microtypecontext on input line 11.
+Package microtype Info: Applying patch `item' on input line 11.
+Package microtype Info: Applying patch `toc' on input line 11.
+Package microtype Info: Applying patch `eqnum' on input line 11.
+Package microtype Info: Applying patch `footnote' on input line 11.
+Package microtype Info: Applying patch `verbatim' on input line 11.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2),
+(microtype)             factor: 1100.
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 10, shrink: 10, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 11.
+Package microtype Info: Tracking enabled.
+Package microtype Info: Using default tracking set `smallcaps'.
+Package microtype Info: Adjustment of interword spacing enabled.
+Package microtype Info: Using default spacing set `alltext-nott'.
+Package microtype Info: Adjustment of character kerning enabled.
+Package microtype Info: Using default kerning set `alltext'.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) (./main.toc)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [1
+
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8] [9] (./main.aux)
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 27587 strings out of 476024
+ 555739 string characters out of 5790019
+ 1866388 words of memory out of 5000000
+ 47483 multiletter control sequences out of 15000+600000
+ 526888 words of font info for 129 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 89i,12n,92p,1001b,1846s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on main.pdf (9 pages, 244193 bytes).
+PDF statistics:
+ 132 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 45069 words of extra memory for PDF output out of 51595 (max. 10000000)
+
