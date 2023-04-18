@@ -317,7 +317,9 @@ Based on the Hoeffding bound, the similar bound can derived for martingale diffe
 		\item	The sum $\sum_{k=1}^n D_k$ is sub-exponential with $(\sqrt{\sum_{k=1}^n\nu_k^2}, \alpha_*)$ where $\alpha_*=\max_{k=1, \cdots, n}\alpha_k$.
 		\item The sum satisfies the concentration ineuqality
 		      \[
-			      \PP\left[\left\vert \sum_{k=1}^nD_k\right\vert\geq t\right]
+			      \PP\left[\left\vert \sum_{k=1}^nD_k\right\vert\geq t\right] \leq \begin{cases}
+				       & 2e^{-\frac{t^2}{2\sum_{k=1}^n}\nu_k^2}
+			      \end{cases}
 		      \]
 	\end{enumerate}
 \end{thm}
