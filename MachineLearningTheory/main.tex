@@ -301,7 +301,11 @@ and $Y_0 = \EE[f(X)]$, $Y_n=f(X)$. Based on telescoping decomposition
 	f(X)-\EE[f(X)] = Y_n-Y_0 =\sum_{k=1}^n\underbrace{Y_k-Y_{k-1}}_{D_k}
 \]
 \begin{defn}
-	Given a sequence $\{Y_k\}_{k=1}^\infty$ of random variables adapted to a filtration $\{\mcF_k\}_{k=1}^\infty$, the pair $\{(Y_k, \mcF_k)\}_{k=1}^\infty$ is a \textit{martingale} if, for all $kk\geq 1$,
+	Given a sequence $\{Y_k\}_{k=1}^\infty$ of random variables adapted to a filtration $\{\mcF_k\}_{k=1}^\infty$, the pair $\{(Y_k, \mcF_k)\}_{k=1}^\infty$ is a \textit{martingale} if, for all $k\geq 1$,
+	\[
+		\EE[\vert Y_k\vert]< \infty \text{ and } \EE[Y_{k+1}\vert \mcF_k] = Y_k.
+	\]
 \end{defn}
+A closed related notion is \textit{martingale difference sequence}, $\{(D_k, \mcF_k)\}_{k=1}^\infty$ such that for all $k\geq 1$,
 \printbibliography
 \end{document}
