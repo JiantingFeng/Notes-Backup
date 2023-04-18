@@ -292,5 +292,10 @@ One condition of two-sided Bernstein bound holds is $\vert X\vert \leq b$ almost
 
 \subsection{Martingale-based methods}
 Let $\{X_k\}_{k=1}^n$ be a sequence of independent r.v., consider the random variable $f(X)=f(X_1, \cdots , X_n)$ for some funciton $f:\RR^n\to \RR$.
+Define
+\[
+	Y_k = \EE[f(X)\vert X_1, \cdots, X_k]\quad \text{ for } k=1,\cdots, n-1
+\]
+and $Y_0 = \EE[f(X)]$, $Y_n=f(X)$.
 \printbibliography
 \end{document}
