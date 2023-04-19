@@ -1,2 +1,2 @@
 - Definition
-	- A concept class $$\mathcal C$$ is PAC learnable if there exists an algorithm $$\mathcal A$$ and a polynomial
+	- A concept class $$\mathcal C$$ is PAC learnable if there exists an algorithm $$\mathcal A$$ and a polynomial, such that for any $$\epsilon> 0, \delta >0$$, for all distribution $$\mathcal D$$ on $$\mathcal X$$ and for any target concept $$c\in\mathcal C$$, the following holds for any
