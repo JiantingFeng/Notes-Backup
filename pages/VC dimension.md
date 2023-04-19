@@ -5,4 +5,4 @@
   number of points that $$f$$ shatters.
 - Example:
 	- Let $$f$$ be all linear function in $$\mathbb{R}^2$$
-	- $$vc(f) = 3$$, because we can choose $$4$$ points that $$f$$ cannot shatter
+	- Then $$vc(f) = 3$$, because we can choose $$4$$ points that $$f$$ cannot shatter
