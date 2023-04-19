@@ -9,7 +9,7 @@
 	- Define $$r_i$$ as the stripe satisfies $$s_4 = \inf\{s: \mathbb{P}[(l;s)\times(b;t)] \geq \frac{\epsilon}{4}\}$$
 	- Since $$R(h_S> \epsilon)$$, we need $$\mathbb{P}[r_i]\geq \epsilon/4$$
 		- This is derived by contraposition, if all $$\mathbb{P}[r_i]< \epsilon/4$$, then $$R(h_S)<\epsilon$$ as well
-	- For a single point $$x$$, the probability of chosen outside of $$r_i$$ ($$R_S\cap r_i=\emptyset$$) is less than $$1-\epsilon/4$$
+	- For a single point $$x$$, the probability of chosen outside of $$r_i$$ is less than $$1-\epsilon/4$$
 		- Note that $$R_S$$ must miss at least one $$r_i$$ (if for all $$i$$ we have $$R_S\cap r_i\neq \emptyset$$ then)
 	- For $$m$$ points, the probability turns to $$(1-\epsilon/4)^m$$
 	- Then $$\mathbb{P}_{S\sim\mathcal D^m}[R(h_S)>\epsilon] < 4(1-\epsilon/4)^m$$
