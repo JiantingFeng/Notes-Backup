@@ -12,5 +12,5 @@
 	- For $$m$$ points, the probability turns to $$(1-\epsilon/4)^m$$
 	- Then $$\mathbb{P}_{S\sim\mathcal D^m}[R(h_S)>\epsilon] < 4(1-\epsilon/4)^m$$
 	- Use the fact that $$1+x\leq \exp(x)$$, we get $$\mathbb{P}_{S\sim\mathcal D^m}[R(h_S)>\epsilon] < 4\exp(-m\epsilon /4) \leq \delta$$
-	- We get $$m\geq $$\frac{4}{\epsilon}\log \frac{4}{\delta}$$, which is bounded by polynomial
+	- We get $$m\geq \frac{4}{\epsilon}\log \frac{4}{\delta}$$, which is bounded by polynomial
 -
