@@ -8,7 +8,7 @@
 	- Suppose the probability measure of outer rect $$\mathbb{P}[R] \geq \epsilon$$ (if $$< \epsilon$$, it is trivial because the error rate is already smaller than $$\epsilon$$)
 	- The stripe can be written as the union of $$4$$ rects ($$r_1, \cdots, r_4$$)
 	- Since $$R(h_S> \epsilon)$$, we need $$\mathbb{P}[r_i]\geq \epsilon/4$$
-	- For a single point $$x$$, the probability of chosen outside of $$r_i$$ ($$R_S\cap r_i=\e$$)is less than $$1-\epsilon/4$$
+	- For a single point $$x$$, the probability of chosen outside of $$r_i$$ ($$R_S\cap r_i=\emptyset$$) is less than $$1-\epsilon/4$$
 	- For $$m$$ points, the probability turns to $$(1-\epsilon/4)^m$$
 	- Then $$\mathbb{P}_{S\sim\mathcal D^m}[R(h_S)>\epsilon] < 4(1-\epsilon/4)^m$$
 	- Use the fact that $$1+x\leq \exp(x)$$, we get $$\mathbb{P}_{S\sim\mathcal D^m}[R(h_S)>\epsilon] < 4\exp(-m\epsilon /4) \leq \delta$$
