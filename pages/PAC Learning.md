@@ -6,7 +6,7 @@
 	- We control the tail $$R(h_S> \epsilon)$$
 	- The error can only happen between the true rect $$R$$ and the hypothesis $$R^\prime$$ (with the stripe)
 	- Suppose the probability measure of outer rect $$\mathbb{P}[R] \geq \epsilon$$ (if $$< \epsilon$$, it is trivial because the error rate is already smaller than $$\epsilon$$)
-	- The stripe can be written as the union of $$4$$ rects ($$r_1, \cdots, r_4$$)
+	- Define $$r_i$$ as the s
 	- Since $$R(h_S> \epsilon)$$, we need $$\mathbb{P}[r_i]\geq \epsilon/4$$
 		- This is derived by contraposition, if all $$\mathbb{P}[r_i]< \epsilon/4$$, then $$R(h_S)<\epsilon$$ as well
 	- For a single point $$x$$, the probability of chosen outside of $$r_i$$ ($$R_S\cap r_i=\emptyset$$) is less than $$1-\epsilon/4$$
