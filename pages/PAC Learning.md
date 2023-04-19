@@ -5,4 +5,5 @@
 	- ![image.png](../assets/image_1681885102792_0.png)
 	- We control the tail $$R(h_S\geq \epsilon)$$
 	- The error can only happen between the true rect $$R$$ and the hypothesis $$R^\prime$$ (with the stripe)
-	- Suppose the probability measure $$\mathbb{P}[R] \geq \epsilon$$ (if $$< \epsilon$$)
+	- Suppose the probability measure of outer rect $$\mathbb{P}[R] \geq \epsilon$$ (if $$< \epsilon$$, it is trivial because the error rate is already smaller than $$\epsilon$$)
+	-
