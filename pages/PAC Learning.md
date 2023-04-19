@@ -2,7 +2,7 @@
 	- A concept class $$\mathcal C$$ is PAC learnable if there exists an algorithm $$\mathcal A$$ and a polynomial, such that for any $$\epsilon> 0, \delta >0$$, for all distribution $$\mathcal D$$ on $$\mathcal X$$ and for any target concept $$c\in\mathcal C$$, the following holds for any $$m\geq poly(1/\epsilon, 1/\delta, n, size(c))$$:
 		- $$\mathbb{P}_{S\sim\mathcal D^m}[R(h_S)\leq\epsilon]\geq 1-\delta$$
 - Example (Axia-aligned rectangles)
-	- ![image.png](../assets/image_1681885102792_0.png)
+	- ![image.png](../assets/image_1681887160379_0.png)
 	- We control the tail $$R(h_S> \epsilon)$$
 	- The error can only happen between the true rect $$R$$ and the hypothesis $$R^\prime$$ (with the stripe)
 	- Suppose the probability measure of outer rect $$\mathbb{P}[R] \geq \epsilon$$ (if $$< \epsilon$$, it is trivial because the error rate is already smaller than $$\epsilon$$)
