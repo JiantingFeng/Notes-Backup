@@ -1,1 +1,3 @@
-- Vapnik-Chervonenkis dimension is a
+- Vapnik-Chervonenkis dimension is a measure on boolean function
+	- Boolean function is used in binary classification
+	-
