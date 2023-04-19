@@ -6,4 +6,5 @@
 	- We control the tail $$R(h_S\geq \epsilon)$$
 	- The error can only happen between the true rect $$R$$ and the hypothesis $$R^\prime$$ (with the stripe)
 	- Suppose the probability measure of outer rect $$\mathbb{P}[R] \geq \epsilon$$ (if $$< \epsilon$$, it is trivial because the error rate is already smaller than $$\epsilon$$)
-	- The s
+	- The stripe can be written as the union of $$4$$ rects ($$r_1, \cdots, r_4$$)
+	- $$\mathbb{P}_{S\in\mathcal D^m} $$
