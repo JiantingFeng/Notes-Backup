@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.20)  20 APR 2023 18:25
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.20)  20 APR 2023 18:26
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -823,4 +823,204 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartfivebox=\box85
 ))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/boo
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen261
+\lightrulewidth=\dimen262
+\cmidrulewidth=\dimen263
+\belowrulesep=\dimen264
+\belowbottomsep=\dimen265
+\aboverulesep=\dimen266
+\abovetopsep=\dimen267
+\cmidrulesep=\dimen268
+\cmidrulekern=\dimen269
+\defaultaddspace=\dimen270
+\@cmidla=\count444
+\@cmidlb=\count445
+\@aboverulesep=\dimen271
+\@belowrulesep=\dimen272
+\@thisruleclass=\count446
+\@lastruleclass=\count447
+\@thisrulewidth=\dimen273
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip82
+\L@UnitsRaiseTextstyle=\skip83
+\L@UnitsRaiseScriptstyle=\skip84
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count448
+\FV@InFile=\read5
+\FV@TabBox=\box86
+\c@FancyVerbLine=\count449
+\FV@StepNumber=\count450
+\FV@OutFile=\write5
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count451
+\mult@box=\box87
+\multicol@leftmargin=\dimen274
+\c@unbalance=\count452
+\c@collectmore=\count453
+\doublecol@number=\count454
+\multicoltolerance=\count455
+\multicolpretolerance=\count456
+\full@width=\dimen275
+\page@free=\dimen276
+\premulticols=\dimen277
+\postmulticols=\dimen278
+\multicolsep=\skip85
+\multicolbaselineskip=\skip86
+\partial@page=\box88
+\last@line=\box89
+\maxbalancingoverflow=\dimen279
+\mult@rightbox=\box90
+\mult@grightbox=\box91
+\mult@firstbox=\box92
+\mult@gfirstbox=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\c@minrows=\count457
+\c@columnbadness=\count458
+\c@finalcolumnbadness=\count459
+\last@try=\dimen280
+\multicolovershoot=\dimen281
+\multicolundershoot=\dimen282
+\mult@nat@firstbox=\box130
+\colbreak@box=\box131
+\mc@col@check@num=\count460
+)
+\c@thm=\count461
+\c@claim=\count462
+)
+luaotfload | cache : Lookup cache loaded from /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Could not resolve font "FiraMath-Regular/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'FiraMath-Regular(0)' created for font
+(fontspec)             'FiraMath-Regular' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,FontAdjustment={\__um_luatex_copy_fontdimens:
+(fontspec)             }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FiraMath-Regular:mode=base;script=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+
+
+Package fontspec Info: Could not resolve font "FiraMath-Regular/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'FiraMath-Regular(1)' created for font
+(fontspec)             'FiraMath-Regular' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=FiraMath-Regular,Style=MathScript},{Size=-6.5,Font=FiraMath-Regular,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
+(fontspec)             }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.6->"FiraMath-Regular:mode=base;script=math;language=dflt;"<6.5-8.6>"FiraMath-Regular:mode=base;script=math;language=dflt;+ssty=0;"<-6.5>"FiraMath-Regular:mode=base;script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/FiraMath-Regular(1)/m/n on input line 6.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/FiraMath-Regular(1)/b/n on input line 6.
+
+Package fontspec Info: FiraMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: Could not resolve font "FiraMath-Regular/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: FiraMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: FiraMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: FiraMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: Font family 'FiraMath-Regular(2)' created for font
+(fontspec)             'FiraMath-Regular' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=FiraMath-Regular,Style=MathScript},{Size=-6.5,Font=FiraMath-Regular,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
+(fontspec)             },ScaleAgain=1.0001,FontAdjustment={\fontdimen 8\font
+(fontspec)             =5.79999pt\relax \fontdimen 9\font =4.5pt\relax
+(fontspec)             \fontdimen 10\font =4.5pt\relax \fontdimen 11\font
+(fontspec)             =7.0pt\relax \fontdimen 12\font =4.79999pt\relax
+(fontspec)             \fontdimen 13\font =4.0pt\relax \fontdimen 14\font
+(fontspec)             =4.0pt\relax \fontdimen 15\font =2.7pt\relax \fontdimen
+(fontspec)             16\font =3.5pt\relax \fontdimen 17\font =3.5pt\relax
+(fontspec)             \fontdimen 18\font =3.59999pt\relax \fontdimen 19\font
+(fontspec)             =2.5pt\relax \fontdimen 22\font =2.79999pt\relax
+(fontspec)             \fontdimen 20\font =0pt\relax \fontdimen 21\font
+(fontspec)             =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.6->s*[1.0001]"FiraMath-Regular:mode=base;script=math;language=dflt;"<6.5-8.6>s*[1.0001]"FiraMath-Regular:mode=base;script=math;language=dflt;+ssty=0;"<-6.5>s*[1.0001]"FiraMath-Regular:mode=base;script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =5.79999pt\relax \fontdimen 9\font =4.5pt\relax
+(fontspec)             \fontdimen 10\font =4.5pt\relax \fontdimen 11\font
+(fontspec)             =7.0pt\relax \fontdimen 12\font =4.79999pt\relax
+(fontspec)             \fontdimen 13\font =4.0pt\relax \fontdimen 14\font
+(fontspec)             =4.0pt\relax \fontdimen 15\font =2.7pt\relax \fontdimen
+(fontspec)             16\font =3.5pt\relax \fontdimen 17\font =3.5pt\relax
+(fontspec)             \fontdimen 18\font =3.59999pt\relax \fontdimen 19\font
+(fontspec)             =2.5pt\relax \fontdimen 22\font =2.79

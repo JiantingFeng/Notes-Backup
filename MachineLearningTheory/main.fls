@@ -375,4 +375,14 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
 OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
 OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/truetype/public/dejavu/DejaVuSerif.ttf
+INPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/firamath-regular.luc
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
+OUTPUT /usr/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
