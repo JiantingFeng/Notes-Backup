@@ -1,5 +1,5 @@
 \documentclass{paper}
-% \usepackage{unicode-math}
+\usepackage{unicode-math}
 \input{mathfonts.tex}
 \input{permeable.tex}
 
@@ -243,7 +243,7 @@ then
 		\PP\left[\left\vert \frac{1}{n}\sum_{k=1}^{n}Z_k^2-1\right\vert\geq 1\right] \leq 2e^{-nt^2/8}, \quad \text{for all } t\in(0, 1)
 	\]
 \end{exmp}
-The concentration of $\chi^2$ r.v. takes an important role in the following Johnson-Lindenstrauss theorem for random projections.
+The concentration of $\chi^2$ r.v. takes an important role in the following Johnson Lindenstrauss theorem for random projections.
 \begin{exmp}
 	Suppose given $N\geq 2$ distinct vectors $\{u^1, \cdots, u^N\}\subset\RR^d$, if the data dimension $d$ is large, then it might be expensive to store and manipulate the data set.
 	The idea of dimensionality reduction is to construct a mapping $F:\RR^d\to\RR^m$ with $m\ll d$, which guarantee that
