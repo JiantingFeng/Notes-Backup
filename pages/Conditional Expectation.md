@@ -1,4 +1,5 @@
 - Definition:
 	- $$\mathbb{E}X = \sum_{X\in\Omega}X(\omega)P(\omega)$$
 	- If $$A\subset \Omega$$, then
-		- $$\mathbb{E}(1_AX) = \int_AXdP=\sum_{\omega_}$$
+		- $$\mathbb{E}(1_AX) = \int_AXdP=\sum_{\omega\in A} X(\omega)P(\omega)$$
+-
