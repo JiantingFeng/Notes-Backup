@@ -1,0 +1,2 @@
+- Definition:
+	- $$\mathbb{E}X = \sum_{X\in\Omega}X(\omega)P(\omega)$$
