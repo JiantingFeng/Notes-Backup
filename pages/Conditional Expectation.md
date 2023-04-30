@@ -3,5 +3,6 @@
 	- If $$A\subset \Omega$$, then
 		- $$\mathbb{E}(1_AX) = \int_AXdP=\sum_{\omega\in A} X(\omega)P(\omega)$$
 - Partial Averaging Property
-	- Let $$\mathcal{G}$$ be a subfield of $$(\Omega, \mathcal{F}, P)$$ and $$A\in \mathcal{G}$$, then $$\int_{A}\mathbb{E}[X\vert \mathcal{G}]dP = \mathbb{E}[1_A\mathbb{E}[X\vert \mathcal{G}]] = \mathbb{E}[\mathbb{E}[1_A X\vert \mathcal{G}]] = \mathbb{E}[1_A X] = \int_{A} XdP$$
-	- When $$A = \Omega$$
+	- Given probability space $$(\Omega, \mathcal{F}, P)$$
+	- Let $$\mathcal{G}$$ be a subfield of $$\mathcal{F}$$ and $$A\in \mathcal{G}$$, then $$\int_{A}\mathbb{E}[X\vert \mathcal{G}]dP = \mathbb{E}[1_A\mathbb{E}[X\vert \mathcal{G}]] = \mathbb{E}[\mathbb{E}[1_A X\vert \mathcal{G}]] = \mathbb{E}[1_A X] = \int_{A} XdP$$
+	- When $$A = \Omega$$, above equation beco
