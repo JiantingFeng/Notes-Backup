@@ -5,4 +5,6 @@
 - Partial Averaging Property
 	- Given probability space $$(\Omega, \mathcal{F}, P)$$
 	- Let $$\mathcal{G}$$ be a subfield of $$\mathcal{F}$$ and $$A\in \mathcal{G}$$, then $$\int_{A}\mathbb{E}[X\vert \mathcal{G}]dP = \mathbb{E}[1_A\mathbb{E}[X\vert \mathcal{G}]] = \mathbb{E}[\mathbb{E}[1_A X\vert \mathcal{G}]] = \mathbb{E}[1_A X] = \int_{A} XdP$$
-	- When $$A = \Omega$$, above equation beco
+	- When $$A = \Omega$$, above equation becomes double-expectation law.
+- Notion
+	- For random variables $$X, Y$$, the
