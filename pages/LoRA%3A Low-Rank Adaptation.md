@@ -1,2 +1,3 @@
 - Link: https://arxiv.org/pdf/2106.09685.pdf
+- Main Idea: Assume that in each gradient step, only a few number of parameters are updated. (According to the original paper, for GPT-3, this number can be only $$0.01\%$$)
 -
