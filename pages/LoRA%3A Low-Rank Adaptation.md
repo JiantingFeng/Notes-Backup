@@ -5,4 +5,4 @@
 	- $$\max_{\Delta\theta}\sum_{(x, y)\in \mathcal{Z}}\log P_{\theta+\Delta\theta}( y\vert x)$$
 - For each dense layer, in every gradient step $$h = (W + \Delta W) x$$
 - Suppose $$\Delta W = AB$$, where $$A \in\mathbb{R}^{m\times r}$$ and $$B \in\mathbb{R}^{r\times n}$$, matrix $$A$$ with full column rank and $$B$$ with full row rank.
--
+- We only train $$\Delta W$$, the number of parameter is $$mr+rn << mn $$ when $$r$$ is small
