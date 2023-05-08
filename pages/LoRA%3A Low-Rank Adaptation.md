@@ -1,5 +1,5 @@
 - Link: https://arxiv.org/pdf/2106.09685.pdf
--
+- Github Repo: https://github.com/microsoft/LoRA
 - When we need to fine tune a pretrained model, we donnot have to modify all the parameters, in stead, we can only train a few of them.
 - Main Idea: Assume that in each gradient step, only a few number of parameters are updated. (According to the original paper, for GPT-3, this number can be only $$0.01\%$$)
 	- In each step, suppose our target is $$\max_{\theta\in\Theta}\sum_{(x, y)\in \mathcal{Z}}\log P_{\theta}( y\vert x)$$, which could be extended into other models, i.e. autoregressive.
