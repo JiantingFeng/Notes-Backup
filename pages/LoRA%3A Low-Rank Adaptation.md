@@ -3,5 +3,5 @@
 	- In each step, suppose our target is $$\max_{\theta\in\Theta}\sum_{(x, y)\in \mathcal{Z}}\log P_{\theta}( y\vert x)$$, which could be extended into other models, i.e. autoregressive.
 	- Suppose we freeze most of the parameters, i.e., only a subset $$\Delta\theta$$ can be updated, where $$\Delta \theta$$ is low rank
 	- $$\max_{\Delta\theta}\sum_{(x, y)\in \mathcal{Z}}\log P_{\theta+\Delta\theta}( y\vert x)$$
-- For each dense layer, $$h = (W + \Delta W) x$$
+- For each dense layer, in every gradient step $$h = (W + \Delta W) x$$
 - Suppose $$\Delta W = AB$$, where $$A \in\mathbb{R}^{m\times r}$$ and $$B \in\mathbb{R}^{r\times n}$$, matrix $$A$$ with full column rank and $$B$$ with full row rank.
