@@ -7,3 +7,4 @@
 	- This is also referred as **integral probability metric**.
 	- A biased empirical estimation is
 		- $$\textrm{MMD}_b[\mathcal F, X, Y] = \sup_{f\in\mathcal F}\left(\frac{1}{m}\sum_{i=1}^mf(x_i) - \frac{1}{n}\sum_{i=1}^nf(y_i)\right)$$
+- Here, we restrict the function class in a **reproducing kernel Hilbert space** $$\mathcal H$$
