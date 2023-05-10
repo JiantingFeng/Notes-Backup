@@ -6,4 +6,4 @@
 	- $$\textrm{MMD}[\mathcal F, p, q] = \sup_{f\in\mathcal F}\left(\mathbb{E}_X[f(x)] - \mathbb{E}_Y(f(y)\right)$$
 	- This is also referred as **integral probability metric**.
 	- A biased empirical estimation is
-		- $$\textrm{MMD}_b[\mathcal F, X, Y] = \sup_{f\in\mathcal F}\left(\right)$$
+		- $$\textrm{MMD}_b[\mathcal F, X, Y] = \sup_{f\in\mathcal F}\left(\frac{1}{m}\sum_{i=1}^mf(x_i) - \frac{1}{n}\sum_{i=1}^nf(y_i)\right)$$
