@@ -13,4 +13,4 @@
 - ![image.png](../assets/image_1683706615880_0.png)
 - use pseudo-transfer flow as reference to determine whether you should use supervised learning or unsupervised learning.
 - ![image.png](../assets/image_1683706726430_0.png)
--
+- ![image.png](../assets/image_1683706896578_0.png)
