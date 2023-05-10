@@ -9,4 +9,4 @@
 		- $$\textrm{MMD}_b[\mathcal F, X, Y] = \sup_{f\in\mathcal F}\left(\frac{1}{m}\sum_{i=1}^mf(x_i) - \frac{1}{n}\sum_{i=1}^nf(y_i)\right)$$
 - Here, we restrict the function class in a unit ball of **reproducing kernel Hilbert space** $$\mathcal H$$.
 - Recall the evaluation function in RKHS is bounded. By Riesz representation,  for all $$x\in\mathcal H$$, $$\exists \phi(x)\in\mathcal H$$, such that the evaluation $$f(x) = \langle f, \phi(x)\rangle_{\mathcal H}$$. The feature map takes the form $$\phi(x) = k(x, \cdot)$$ where $$k(\cdot, \cdot)$$ is a kernel function defined as $$k(x, z) = \langle\phi(x), \phi(z)\rangle_{\mathcal{H}}$$
--
+- This notation can also be extended into expectation, i.e.
