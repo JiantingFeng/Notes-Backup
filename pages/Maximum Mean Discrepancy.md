@@ -20,4 +20,5 @@
 - Note that $$\langle\mu_p, \mu_q\rangle_{\mathcal H} = \int_{\mathcal X\times \mathcal X}k(x, z) \mathrm d\mathbb P\mathrm d\mathbb Q$$
 - We can expand the previous form {{embed ((645b92c9-e10d-4581-b54e-a0a040c58637))}}
 	- as expectation of kernel function
-	- When do actual calculating, directly use sample expecatation
+	- When do actual calculating, directly use sample expectation to replace the integral.
+	- $$\textrm{EmpMMD} = \frac{1}{m(m-1)}\sum_i\sum_{j\neq i}k(x_i, x_j) - \frac{2}{m^2}$$
