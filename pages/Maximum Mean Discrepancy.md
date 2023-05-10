@@ -1,4 +1,5 @@
 - This concept is introduced to solve following question:
 	- Let $$x$$ and $$y$$ be random variables defined on a topological space $$\mathcal{X}$$, with respective Borel probability measure $$p$$ and $$q$$. Given observations $$X = \{X_1,\cdots, X_n\}$$ and $$Y=\{Y_1, \cdots, Y_m\}$$ i.i.d. from $$p$$ and $$q$$, respectively. **How can we decided whether** $$p\neq q$$
 - First we have following lemma,
-	- Let $$(\mathcal X, d)$$ be a metric space, and $$p, q$$ be two Borel probability measures defined on $$\mathcal X$$. Then $$p=q$$ iff $$\mathbb{E}_X[f(X)]=\mathbb{E}_Y[f(X)]$$
+	- Let $$(\mathcal X, d)$$ be a metric space, and $$p, q$$ be two Borel probability measures defined on $$\mathcal X$$. Then $$p=q$$ iff $$\mathbb{E}_X[f(X)]=\mathbb{E}_Y[f(Y)]$$ for all $$f\in C(\mathcal X)$$. Where $$C(\mathcal X)$$ denoted the space of bounded  continuous functions on $$\mathcal X$$
+-
