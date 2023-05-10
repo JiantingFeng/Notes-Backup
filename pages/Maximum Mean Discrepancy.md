@@ -16,4 +16,4 @@
 	- $$\mathrm{MMD}^2[\mathcal F, p, q] = \lVert \mu_p - \mu_q \rVert^2$$
 	- Proof is directly followed by the Riesz repr. of expectation.
 - With inner product, it can also be written as $$\langle\mu_p, \mu_p\rangle_{\mathcal H}^2 - 2\langle\mu_p, \mu_q\rangle_{\mathcal H}+\langle\mu_q, \mu_q\rangle_{\mathcal H}^2$$
-- Note that $$\$$
+- Note that $$\langle\mu_p, \mu_q\rangle_{\mathcal H} = \int_{\mathcal X\times \mathcal X}k(x, z) \phi(x)\phi(z)d\mathbb PdQ$$
