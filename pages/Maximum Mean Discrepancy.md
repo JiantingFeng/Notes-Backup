@@ -3,10 +3,13 @@
 - First we have following lemma,
 	- Let $$(\mathcal X, d)$$ be a metric space, and $$p, q$$ be two Borel probability measures defined on $$\mathcal X$$. Then $$p=q$$ iff $$\mathbb{E}_X[f(X)]=\mathbb{E}_Y[f(Y)]$$ for all $$f\in C(\mathcal X)$$. Where $$C(\mathcal X)$$ denoted the space of bounded  continuous functions on $$\mathcal X$$
 - Definition: Let $$\mathcal F$$ be a class of functionals o $$\mathcal X$$. We define *maximal mean discrepancy* (MMD) as
-	- $$\textrm{MMD}[\mathcal F, p, q] = \sup_{f\in\mathcal F}\left(\mathbb{E}_X[f(x)] - \mathbb{E}_Y(f(y)\right)$$
+	- id:: 645b8cff-c901-4850-952c-69e2ff42a406
+	  $$\textrm{MMD}[\mathcal F, p, q] = \sup_{f\in\mathcal F}\left(\mathbb{E}_X[f(x)] - \mathbb{E}_Y(f(y)\right)$$
 	- This is also referred as **integral probability metric**.
 	- A biased empirical estimation is
 		- $$\textrm{MMD}_b[\mathcal F, X, Y] = \sup_{f\in\mathcal F}\left(\frac{1}{m}\sum_{i=1}^mf(x_i) - \frac{1}{n}\sum_{i=1}^nf(y_i)\right)$$
 - Here, we restrict the function class in a unit ball of **reproducing kernel Hilbert space** $$\mathcal H$$.
 - Recall the evaluation function in RKHS is bounded. By Riesz representation,  for all $$x\in\mathcal H$$, $$\exists \phi(x)\in\mathcal H$$, such that the evaluation $$f(x) = \langle f, \phi(x)\rangle_{\mathcal H}$$. The feature map takes the form $$\phi(x) = k(x, \cdot)$$ where $$k(\cdot, \cdot)$$ is a kernel function defined as $$k(x, z) = \langle\phi(x), \phi(z)\rangle_{\mathcal{H}}$$
 - This notation can also be extended into expectation, i.e. $$\exists\mu\in\mathcal H$$, $$\forall f\in \mathcal H$$, we have $$\mathbb{E}f = \langle f, \mu\rangle_{\mathcal H}$$
+- We have
+	- $$\mathrm{MMD}^2[\mathcal F, p, q] = \lvert \mu_p - \rVert \$$
