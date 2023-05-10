@@ -1,3 +1,5 @@
 - Url: https://openreview.net/pdf?id=oqOBTo5uWD
 - Main:
-	- Proposed Transfer Flow and Psedu
+	- Proposed and validate **Transfer Flow** and **Pseudo Transfer Flow**
+	-
+	-
