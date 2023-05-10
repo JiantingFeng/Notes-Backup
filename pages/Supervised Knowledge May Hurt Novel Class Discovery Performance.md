@@ -9,4 +9,5 @@
 - ![image.png](../assets/image_1683706319885_0.png){:height 371, :width 778}
 - ![image.png](../assets/image_1683706335373_0.png)
 - ![image.png](../assets/image_1683706405306_0.png)
-- Low-similarity case, self
+- Low-similarity case, self-supervised is better than supervised(w/o labels), in other word, labels may hurt the result in low similarity case.
+-
