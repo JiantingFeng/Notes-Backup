@@ -4,4 +4,6 @@
 	- Let $$(\mathcal X, d)$$ be a metric space, and $$p, q$$ be two Borel probability measures defined on $$\mathcal X$$. Then $$p=q$$ iff $$\mathbb{E}_X[f(X)]=\mathbb{E}_Y[f(Y)]$$ for all $$f\in C(\mathcal X)$$. Where $$C(\mathcal X)$$ denoted the space of bounded  continuous functions on $$\mathcal X$$
 - Definition: Let $$\mathcal F$$ be a class of functionals o $$\mathcal X$$. We define *maximal mean discrepancy* (MMD) as
 	- $$\textrm{MMD}[\mathcal F, p, q] = \sup_{f\in\mathcal F}\left(\mathbb{E}_X[f(x)] - \mathbb{E}_Y(f(y)\right)$$
-	- This is also referred as **integral probability metric**
+	- This is also referred as **integral probability metric**.
+	- A biased empirical estimation is
+		- $$\textrm{MMD}_b[\mathcal F, X, Y] = \sup_{f\in\mathcal F}\left(\right)$$
