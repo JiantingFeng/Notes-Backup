@@ -17,6 +17,7 @@
 	- Proof is directly followed by the Riesz repr. of expectation.
 - With inner product, it can also be written as $$\langle\mu_p, \mu_p\rangle_{\mathcal H}^2 - 2\langle\mu_p, \mu_q\rangle_{\mathcal H}+\langle\mu_q, \mu_q\rangle_{\mathcal H}^2$$
   id:: 645b92c9-e10d-4581-b54e-a0a040c58637
-- Note that $$\langle\mu_p, \mu_q\rangle_{\mathcal H} = \int_{\mathcal X\times \mathcal X}k(x, z) \phi(x)\phi(z)d\mathbb Pd\mathbb Q$$
+- Note that $$\langle\mu_p, \mu_q\rangle_{\mathcal H} = \int_{\mathcal X\times \mathcal X}k(x, z) \mathrm d\mathbb P\mathrm d\mathbb Q$$
 - We can expand the previous form {{embed ((645b92c9-e10d-4581-b54e-a0a040c58637))}}
-	- as expectation of
+	- as expectation of kernel function
+	- When do actual calculating, directly use sample expecatation
