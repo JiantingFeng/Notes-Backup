@@ -1,1 +1,2 @@
-- This concept is
+- This concept is introduced to solve following question:
+	- Let $$x$$ and $$y$$ be random variables defined on a topological space $$\mathcal{X}$$, with respective Borel probability measure $$p$$ and $$q$$
