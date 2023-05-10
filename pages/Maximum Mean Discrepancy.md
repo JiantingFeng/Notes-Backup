@@ -21,4 +21,4 @@
 - We can expand the previous form {{embed ((645b92c9-e10d-4581-b54e-a0a040c58637))}}
 	- as expectation of kernel function
 	- When do actual calculating, directly use sample expectation to replace the integral.
-	- $$\textrm{EmpMMD} = \frac{1}{m(m-1)}\sum_i\sum_{j\neq i}k(x_i, x_j) - \frac{2}{m^2}$$
+	- Emperical $$\textrm{MMD}^2 = \frac{1}{m(m-1)}\sum_i\sum_{j\neq i}k(x_i, x_j) - \frac{2}{mn}\sum_i\sum_j k(x_i, z_j) + \frac{1}{n(n-1)}\sum_i\sum_{j\neq i}k(z_i, z_j)$$
