@@ -12,4 +12,5 @@
 - Recall the evaluation function in RKHS is bounded. By Riesz representation,  for all $$x\in\mathcal H$$, $$\exists \phi(x)\in\mathcal H$$, such that the evaluation $$f(x) = \langle f, \phi(x)\rangle_{\mathcal H}$$. The feature map takes the form $$\phi(x) = k(x, \cdot)$$ where $$k(\cdot, \cdot)$$ is a kernel function defined as $$k(x, z) = \langle\phi(x), \phi(z)\rangle_{\mathcal{H}}$$
 - This notation can also be extended into expectation, i.e. $$\exists\mu\in\mathcal H$$, $$\forall f\in \mathcal H$$, we have $$\mathbb{E}f = \langle f, \mu\rangle_{\mathcal H}$$
 - We have
-	- $$\mathrm{MMD}^2[\mathcal F, p, q] = \lvert \mu_p - \rVert \$$
+	- $$\mathrm{MMD}^2[\mathcal F, p, q] = \lVert \mu_p - \mu_q \rVert$$
+	- Proof is directly followed by the Riesz repr. of expectation.
