@@ -15,4 +15,5 @@
 - We have
 	- $$\mathrm{MMD}^2[\mathcal F, p, q] = \lVert \mu_p - \mu_q \rVert^2$$
 	- Proof is directly followed by the Riesz repr. of expectation.
-	-
+- With inner product, it can also be written as $$\langle\mu_p, \mu_p\rangle_{\mathcal H}^2$$
+-
