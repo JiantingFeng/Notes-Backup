@@ -7,4 +7,5 @@
 	- $$\mathrm{d}S_t = \mu S_tdt + \sigma S_t \mathrm{d}W_t$$
 	- where $$\mu$$ and $$\sigma$$ are constant term
 - Ito Lemma
-	- Suppose $$f$$ is
+	- Suppose $$f(x, t)$$ is twice differentiable, $$X_t$$ is a stochastic process satisfying $$\mathrm{d}X_t = \mu_t\mathrm{d} t+\sigma_t \mathrm{d} W_t$$
+	-
