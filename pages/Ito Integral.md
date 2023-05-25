@@ -8,4 +8,5 @@
 	- where $$\mu$$ and $$\sigma$$ are constant term
 - Ito Lemma
 	- Suppose $$f(x, t)$$ is twice differentiable, $$X_t$$ is a stochastic process satisfying $$\mathrm{d}X_t = \mu_t\mathrm{d} t+\sigma_t \mathrm{d} W_t$$
+	- Take derivative $$\mathrm{d} f = \dfrac{\partial f}{\partial t} \mathrm{d} t + \frac{1}{2} $$
 	-
