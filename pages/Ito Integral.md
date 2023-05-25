@@ -9,6 +9,7 @@
 - Ito Lemma
 	- Suppose $$f(x, t)$$ is twice differentiable, $$X_t$$ is a stochastic process satisfying $$\mathrm{d}X_t = \mu_t\mathrm{d} t+\sigma_t \mathrm{d} W_t$$
 	- Take derivative $$\mathrm{d} f = \dfrac{\partial f}{\partial t} \mathrm{d} t + \dfrac{\partial f}{\partial x} \mathrm{d}x + \dfrac{1}{2}\dfrac{\partial^2 f}{\partial x^2}\mathrm{d}x^2 $$
-	- Substituting $$x$$ with $$X_t$$, we get $$\mathrm{d} f = \dfrac{\partial f}{\partial t} \mathrm{d} t + \dfrac{\partial f}{\partial x} \left(\mu_t\mathrm{d} t+\sigma_t \mathrm{d} W_t\right) + \dfrac{1}{2}\dfrac{\partial^2 f}{\partial x^2}\mathrm{d} W_t\right)^2 $$
-		-
+	- Substituting $$x$$ with $$X_t$$, we get $$\mathrm{d} f = \dfrac{\partial f}{\partial t} \mathrm{d} t + \dfrac{\partial f}{\partial x} \left(\mu_t\mathrm{d} t+\sigma_t \mathrm{d} W_t\right) + \dfrac{1}{2}\dfrac{\partial^2 f}{\partial x^2}\left(\mu_t\mathrm{d} t+\sigma_t \mathrm{d} W_t\right)^2 $$
+		- Note $$(\mathrm{d} W_t)^2 = \mathrm{d}t$$, we get
+		- $$\mathrm$$
 	-
