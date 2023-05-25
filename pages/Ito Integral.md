@@ -1,5 +1,7 @@
 - Stochastic Process: $$X_t: [0, T]\times \Omega\to \mathbb{R}$$
 - We have SDE $$\mathrm{d}X_t = \mu \mathrm{d}t + \sigma \mathrm{d}W_t$$, where $$W_t$$ is Wiener process, drift $$\mu = \mu(t, X_t)$$ and variance $$\sigma = \sigma(t, X_t)$$
 - Compared to ODE, the solution can be written in the form $$X_t = X_0 + \int_{0}^t \mu \mathrm{d}s+ \int_{0}^t\sigma \mathrm{d}W_s$$ called Ito integral
-	- The first term $$\int_0^t\mu \mathrm{d}s$$ is just a rRiemann integral
-	- The second term $$\int_0^t\sigma \mathrm{d} W_s$$ is Ito integral w.r.t. Wiener process.
+	- The first term (drift term) $$\int_0^t\mu \mathrm{d}s$$ is just a Riemann integral
+	- The second term (diffusion term) $$\int_0^t\sigma \mathrm{d} W_s$$ is Ito integral w.r.t. Wiener process.
+- Example, Geometry Brownian Motion
+	- $$\mathrm{d}S_t = \muS_tdt$$
