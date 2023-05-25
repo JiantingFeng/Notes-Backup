@@ -1,2 +1,2 @@
-- Stochastic Process: $$I: [0, T]\times \Omega\to \mathbb{R}$$
--
+- Stochastic Process: $$B: [0, T]\times \Omega\to \mathbb{R}$$
+- We have SDE $$\mathrm{d}B_t = \mu \mathrm{d}t + \sigma \mathrm{d}Wt$$
