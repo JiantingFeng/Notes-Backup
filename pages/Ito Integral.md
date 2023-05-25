@@ -7,5 +7,6 @@
 	- $$\mathrm{d}S_t = \mu S_tdt + \sigma S_t \mathrm{d}W_t$$
 	- where $$\mu$$ and $$\sigma$$ are constant term
 - Consider we want to pricing a financial contract, i.e.
-	- $$C_t = f(S_t, t)$$
-	-
+	- $$C_t = f(S_t, t)$$ where $$S_t$$ is the underling stock price
+	- It can be an European call option, etc.
+-
