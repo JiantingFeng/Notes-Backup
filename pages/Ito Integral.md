@@ -6,3 +6,6 @@
 - Example, Geometry Brownian Motion
 	- $$\mathrm{d}S_t = \mu S_tdt + \sigma S_t \mathrm{d}W_t$$
 	- where $$\mu$$ and $$\sigma$$ are constant term
+- Consider we want to pricing a financial contract, i.e.
+	- $$C_t = f(S_t, t)$$
+	-
