@@ -12,3 +12,4 @@
 	- We are interested in the dynamics of it.
 	- Consider small $$\mathrm{d} t$$ then use taylor expansion
 	- $$\mathrm{d}f(S_t) =\frac{\partial f}{\partial S}$$
+	-
