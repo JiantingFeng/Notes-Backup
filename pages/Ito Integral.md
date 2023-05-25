@@ -9,4 +9,6 @@
 - Consider we want to pricing a financial contract, i.e.
 	- $$C_t = f(S_t, t)$$ where $$S_t$$ is the underling stock price
 	- It can be an European call option, etc.
--
+	- We are interested in the dynamics of it.
+	- Consider small $$\mathrm{d} t$$ then use taylor expansion
+	- $$\mathrm{d}f(S_t) = f( S_{t+\mathrm{d} t)}$$
