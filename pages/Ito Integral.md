@@ -4,4 +4,5 @@
 	- The first term (drift term) $$\int_0^t\mu \mathrm{d}s$$ is just a Riemann integral
 	- The second term (diffusion term) $$\int_0^t\sigma \mathrm{d} W_s$$ is Ito integral w.r.t. Wiener process.
 - Example, Geometry Brownian Motion
-	- $$\mathrm{d}S_t = \muS_tdt$$
+	- $$\mathrm{d}S_t = \mu S_tdt + \sigma S_t \mathrm{d}W_t$$
+	- where $$\mu$$ and $$\sigma$$ are constant term
