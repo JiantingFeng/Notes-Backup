@@ -6,3 +6,4 @@
 	- Color:
 		- Red: price goes down within the period
 		- Green: price goes up within the period
+-
