@@ -8,6 +8,7 @@
 		- Green: price goes up within the period
 - Support and Resistance
 	- Based on history data
+	- Help decide entry and exit spots
 	- Support
 		- ![image.png](../assets/image_1685181171268_0.png)
 	- Resistance
