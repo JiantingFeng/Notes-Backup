@@ -6,4 +6,10 @@
 	- Color:
 		- Red: price goes down within the period
 		- Green: price goes up within the period
-- Support and Resistence
+- Support and Resistance
+	- Based on history data
+	- Support
+		- ![image.png](../assets/image_1685181171268_0.png)
+	- Resistance
+		- ![image.png](../assets/image_1685181188423_0.png){:height 337, :width 718}
+-
