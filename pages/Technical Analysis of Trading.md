@@ -1,4 +1,4 @@
-- Youtube
+- Youtube url: {{video https://www.youtube.com/watch?v=eynxyoKgpng}}
 - Goal: Try to predict the trend of market
 - Candlestick Chart
 	- The change of price within a period of time (e.g. 5min)
