@@ -1,3 +1,4 @@
 - Given a matrix $$\bm{A}\in \mathbb{R}^{n\times n}$$, if we want to compute its trace, then we can use this trick, called *Hutchinson's Trace Estimation*.
 - $$\mathrm{tr}\left(\bm A\right) = \mathrm{tr}\left(\bm A\mathbb{E}[\varepsilon \varepsilon^T]\right)=\mathbb{E}\left[\mathrm{tr}(\bm{A}\varepsilon\varepsilon^T)\right]=\mathbb{E}\left[\mathrm{tr}(\varepsilon^T\bm{A}\varepsilon)\right] = \mathbb{E}\left[\varepsilon^T\bm{A}\varepsilon\right]$$
+- where $$\varepsilon\sim \mathcal{N}(0, 1)$$
 -
