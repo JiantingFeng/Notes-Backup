@@ -1,6 +1,6 @@
 - Given a matrix $$\bm{A}\in \mathbb{R}^{n\times n}$$, if we want to compute its trace, then we can use this trick, called *Hutchinson's Trace Estimation*.
 - $$\mathrm{tr}\left(\bm A\right) = \mathrm{tr}\left(\bm A\mathbb{E}[\varepsilon \varepsilon^T]\right)=\mathbb{E}\left[\mathrm{tr}(\bm{A}\varepsilon\varepsilon^T)\right]=\mathbb{E}\left[\mathrm{tr}(\varepsilon^T\bm{A}\varepsilon)\right] = \mathbb{E}\left[\varepsilon^T\bm{A}\varepsilon\right]$$
-- where $$\varepsilon\sim \mathcal{N}(0, 1)$$
+- where $$\varepsilon\sim \mathcal{N}(0, \bm I)\in\mathbb{R}^n$$
 - then you can use Monte Carlo method to approximate the expectation.
 - But, why don't we directly calculate the trace?
 - Suppose you need to calculate the trace of a matrix function, i.e. $$\mathrm{tr}(\exp \bm A), \mathrm{tr}(\log \bm A)$$, etc
@@ -10,4 +10,5 @@
 	- Total time complexity is $$\mathcal{O}(n^3)$$
 - If we use *Hutchinson's Trace Estimation*
 	- For $$t=0, 1, \cdots, T$$ do
-	-
+		- Draw $$\varepsilon\sim \mathcal{N}(0, \bm I)\in\mathbb{R}^n$$
+		- Calculate $$f(\bm A)$$
