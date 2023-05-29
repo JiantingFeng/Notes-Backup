@@ -13,4 +13,5 @@
 		- Draw $$\varepsilon\sim \mathcal{N}(0, \bm I)\in\mathbb{R}^n$$
 		- Calculate $$\varepsilon^T\bm A^2\varepsilon$$, you can calculate vector-matrix product rather than matrix-matrix product, which takes $$\mathcal{O}(n^2)$$
 	- Calculate the average of previous results, takes $$\mathcal{O}(T)$$
-	-
+	- Total time complexity is $$\mathcal{O}(n^2T)$$
+- The vector $$\varepsilon$$ is referred as **probe vector**. If the number of probe vect
