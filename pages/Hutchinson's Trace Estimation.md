@@ -5,5 +5,5 @@
 - But, why don't we directly calculate the trace?
 - Suppose you need to calculate the trace of a matrix function, i.e. $$\mathrm{tr}(\exp \bm A), \mathrm{tr}(\log \bm A)$$, etc
 - With traditional way, you should go through the following steps
-	- Calculate the Jordan canonical form of $$\bm A = \bm \Gamma + \bm  N$$, where $$\bm \gamma$$ is diag. matrix and $$\bm N$$ is
+	- Calculate the Jordan canonical form of $$\bm A = \bm \Gamma + \bm  N$$, where $$\bm \gamma$$ is diag. matrix and $$\bm N$$ is nilpotent
 	- Take
