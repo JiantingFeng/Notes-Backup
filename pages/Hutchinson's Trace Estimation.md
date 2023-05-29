@@ -3,4 +3,5 @@
 - where $$\varepsilon\sim \mathcal{N}(0, 1)$$
 - then you can use Monte Carlo method to approximate the expectation.
 - But, why don't we directly calculate the trace?
-- Suppose you need to calculate the trace of a
+- Suppose you need to calculate the trace of a matrix function, i.e. $$\mathrm{tr}(\exp \bm A), \mathrm{tr}(\log \bm A)$$, etc
+- With traditional way,
