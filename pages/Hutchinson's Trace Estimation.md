@@ -11,4 +11,5 @@
 - If we use *Hutchinson's Trace Estimation* to estimate $$\mathrm{tr} \bm A^2$$
 	- For $$t=0, 1, \cdots, T$$ do
 		- Draw $$\varepsilon\sim \mathcal{N}(0, \bm I)\in\mathbb{R}^n$$
-		- Calculate $$\varepsilon^T\bm A^2\varepsilon$$,
+		- Calculate $$\varepsilon^T\bm A^2\varepsilon$$, you can calculate vector-matrix product rather than matrix-matrix product
+		-
