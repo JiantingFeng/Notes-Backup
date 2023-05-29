@@ -15,3 +15,4 @@
 	- Calculate the average of previous results, takes $$\mathcal{O}(T)$$
 	- Total time complexity is $$\mathcal{O}(n^2T)$$
 - The vector $$\varepsilon$$ is referred as *probe vector*. If the number of probe vector is smaller than the dimension $$n$$, we can reduce the time complexity.
+-
