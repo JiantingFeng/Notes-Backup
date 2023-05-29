@@ -5,5 +5,7 @@
 - But, why don't we directly calculate the trace?
 - Suppose you need to calculate the trace of a matrix function, i.e. $$\mathrm{tr}(\exp \bm A), \mathrm{tr}(\log \bm A)$$, etc
 - With traditional way, you should go through the following steps
-	- Calculate the Jordan canonical form of $$\bm A$$. Indeed, in numerical computation, every matrix is diagonalizable since all eigenvalues are different (approximation error). Then the cost of this step takes $$\mathcal{O}(n^3)$$, the diag. form is denoted as $$\bm \$$
+	- Calculate the Jordan canonical form of $$\bm A$$. Indeed, in numerical computation, every matrix is diagonalizable since all eigenvalues are different (approximation error). Then the cost of this step takes $$\mathcal{O}(n^3)$$, the diag. form is denoted as $$\bm \Lambda$$
+	- Calculate $$f(\bm \Lambda)$$, and add them up, which takes $$\mathcal{O}(n)$$
+	-
 	-
