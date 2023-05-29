@@ -1,1 +1,1 @@
-- Given a matrix $4A
+- Given a matrix $$\bm{A}$$, if we want to compute its trace
