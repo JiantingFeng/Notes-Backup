@@ -11,4 +11,4 @@
 - If we use *Hutchinson's Trace Estimation*
 	- For $$t=0, 1, \cdots, T$$ do
 		- Draw $$\varepsilon\sim \mathcal{N}(0, \bm I)\in\mathbb{R}^n$$
-		- Calculate $$f(\bm A)$$
+		- Calculate $$\varepsilon^Tf(\bm A)\varepsilon$$, which takes $$\mathcal{O}(n\times n \times 1)$$
