@@ -4,4 +4,6 @@
 - then you can use Monte Carlo method to approximate the expectation.
 - But, why don't we directly calculate the trace?
 - Suppose you need to calculate the trace of a matrix function, i.e. $$\mathrm{tr}(\exp \bm A), \mathrm{tr}(\log \bm A)$$, etc
-- With traditional way,
+- With traditional way, you should go through the following steps
+	- Calculate the Jordan form of $$\bm A$$
+	-
