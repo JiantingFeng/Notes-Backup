@@ -8,7 +8,7 @@
 	- Calculate the Jordan canonical form of $$\bm A$$. Indeed, in numerical computation, every matrix is diagonalizable since all eigenvalues are different (approximation error). Then the cost of this step takes $$\mathcal{O}(n^3)$$, the diag. form is denoted as $$\bm \Lambda$$
 	- Calculate $$f(\bm \Lambda)$$, and add them up to calculate trace, which takes $$\mathcal{O}(n)$$
 	- Total time complexity is $$\mathcal{O}(n^3)$$
-- If we use *Hutchinson's Trace Estimation*
+- If we use *Hutchinson's Trace Estimation* to estimate $$\mathrm{tr} \bm A^2$$
 	- For $$t=0, 1, \cdots, T$$ do
 		- Draw $$\varepsilon\sim \mathcal{N}(0, \bm I)\in\mathbb{R}^n$$
-		- Calculate $$\varepsilon^Tf(\bm A)\varepsilon$$, which takes $$\mathcal{O}(n\times n \times 1)$$
+		- Calculate $$\varepsilon^T\bm A^2\varepsilon$$,
