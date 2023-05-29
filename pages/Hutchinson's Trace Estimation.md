@@ -3,4 +3,4 @@
 - where $$\varepsilon\sim \mathcal{N}(0, 1)$$
 - then you can use Monte Carlo method to approximate the expectation.
 - But, why don't we directly calculate the trace?
--
+- Suppose you need to calculate the trace of a
