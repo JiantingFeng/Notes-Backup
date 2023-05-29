@@ -1,2 +1,2 @@
-- Given a matrix $$\bm{A}$$, if we want to compute its trace, then we can use this trick, called *Hutchinson's Trace Estimation*
-- $$\mathrm{tr}\left(\bm A\right) = \mathrm{tr}\left(\bm A\right)$$
+- Given a matrix $$\bm{A}\in \mathbb{R}^{n\times n}$$, if we want to compute its trace, then we can use this trick, called *Hutchinson's Trace Estimation*.
+- $$\mathrm{tr}\left(\bm A\right) = \mathrm{tr}\left(\bm A\mathbb{E}[\varepsilon \varepsilon^T]\right)=\$$
