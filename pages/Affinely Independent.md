@@ -1,0 +1,1 @@
+- The set $$\{v_1, \cdots, v_n\}$$ is **linearly independent** for any
