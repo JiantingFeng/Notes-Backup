@@ -1,1 +1,3 @@
-- The set $$\{v_1, \cdots, v_n\}$$ is **linearly independent** for any
+- The set $$\{v_1, \cdots, v_n\}$$ is **linearly independent** for any $$c_1, \cdots, c_n$$ not all $$0$$
+	- $$\sum_{i=1}^nc_iv_i = 0\iff \forall i\in[n], c_i = 0$$
+-
