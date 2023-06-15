@@ -4,4 +4,9 @@
 - Theorem (informal). The sets from conformal prediction satisfy
 	- $$90\%\leq P(Y_{n+1}\in T(X_{+1}))\leq 90\%+1/n$$
 - Pros
-	-
+	- finite-sample coverage
+	- any predictive model
+	- any distribution
+- Cons
+	- Sometimes wrong error notion
+	- Conservative for high-d outputs
