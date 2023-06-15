@@ -1,3 +1,5 @@
 - Prediction sets that cover 90% (say) of future points
 	- data: $$(X_i, Y_i)\in\mathcal{X}\times\mathcal{Y}, i=1, \cdots n+1$$
-	-
+	- prediction set: $$T:\mathcal{X}\to 2^{\mathcal{Y}}$$
+	- Theorem (informal). The sets from conformal prediction satisfy
+		-
