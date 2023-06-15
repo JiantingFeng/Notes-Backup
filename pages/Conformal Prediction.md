@@ -1,0 +1,2 @@
+- Prediction sets that cover 90% (say) of future points
+	- data: $$(X_i, Y_i)\in\mathcal{X}\times\mathcal{Y}$$
