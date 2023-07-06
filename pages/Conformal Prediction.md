@@ -7,6 +7,6 @@
 - Detail steps:
 	- Get a classifier $$\hat{f}(x)\in[0,1]^K$$
 	  logseq.order-list-type:: number
-	- Reserve a *moderate* number of i.i.d. pairs fo
+	- Reserve a *moderate* number of i.i.d. pairs of $$(X_1, Y_1), \cdots, (X_n, Y_n)$$ as calibration data.
 	  logseq.order-list-type:: number
-- Goal: Construct a *prediction set* $$C(X_\text{test})$$ with
+- Goal: Construct a *prediction set* $$C(X_\text{test})$$ with $$1-\alpha \leq \mathbb{P}$$
