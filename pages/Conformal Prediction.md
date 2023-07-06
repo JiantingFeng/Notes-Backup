@@ -4,4 +4,4 @@
 	  logseq.order-list-type:: number
 	- Calibration step: Create prediction sets (a set of possible labels)  with a small amount of data (called calibration data)
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+- Goal: Construct a
