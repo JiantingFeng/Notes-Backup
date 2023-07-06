@@ -13,4 +13,4 @@
 - Calibration step
 	- Set *conformal score* $$s_i = 1 - \hat{f}(X_i)_{Y_i}$$ to be $$1$$ minus the softmax output of true label.
 		- This score will be high if the model is likely to be wrong
--
+	- Define $$\hat{q}$$ to be empirical quantile f $$$$
