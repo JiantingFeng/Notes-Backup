@@ -14,4 +14,6 @@
 	- Set *conformal score* $$s_i = 1 - \hat{f}(X_i)_{Y_i}$$ to be $$1$$ minus the softmax output of true label.
 		- This score will be high if the model is likely to be wrong
 	- Define $$\hat{q}$$ to be $$(n+1)(1-\alpha)/n$$ empirical quantile of $$s_1, \cdots, s_n$$
-	- For a new data point,  create a prediction
+	- For a new data point,  create a prediction set $$C(X_\text{test}) = \{y: \hat{f}(X_\text{test})_y\geq 1 - \hat{q}\}$$
+	- Code
+	-
