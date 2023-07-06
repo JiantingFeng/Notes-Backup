@@ -12,10 +12,12 @@
 - Goal: Construct a *prediction set* $$C(X_\text{test})$$ with $$1-\alpha \leq \mathbb{P}(Y_\text{test}\in C(X_\text{test})\leq 1-\alpha +\frac{1}{n+1}$$, $$\alpha$$ is an user-chosen error rate
 - Calibration step
 	- Set *conformal score* $$s_i = 1 - \hat{f}(X_i)_{Y_i}$$ to be $$1$$ minus the softmax output of true label.
+	  collapsed:: true
 		- This score will be high if the model is likely to be wrong
 	- Define $$\hat{q}$$ to be $$(n+1)(1-\alpha)/n$$ empirical quantile of $$s_1, \cdots, s_n$$
 	- For a new data point,  create a prediction set $$C(X_\text{test}) = \{y: \hat{f}(X_\text{test})_y\geq 1 - \hat{q}\}$$
 	- Code:
+	  collapsed:: true
 		- ```python
 		  # 1: get conformal scores. n = calib_Y.shape[0]
 		  cal_smx = model(calib_X).softmax(dim=1).numpy()
@@ -26,3 +28,5 @@
 		  val_smx = model(val_X).softmax(dim=1).numpy()
 		  prediction_sets = val_smx >= (1-qhat) # 3: form prediction sets
 		  ```
+- ![image.png](../assets/image_1688626197741_0.png){:height 238, :width 580}
+-
