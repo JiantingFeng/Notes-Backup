@@ -11,4 +11,5 @@
 	  logseq.order-list-type:: number
 - Goal: Construct a *prediction set* $$C(X_\text{test})$$ with $$1-\alpha \leq \mathbb{P}(Y_\text{test}\in C(X_\text{test})\leq 1-\alpha +\frac{1}{n+1}$$, $$\alpha$$ is an user-chosen error rate
 - Calibration step
-	- Set *conformal score* $$s_i = 1 - \hat{f}(X_i)_{Y_i}$$
+	- Set *conformal score* $$s_i = 1 - \hat{f}(X_i)_{Y_i}$$ to be $$1$$ minus the softmax output of true label.
+-
