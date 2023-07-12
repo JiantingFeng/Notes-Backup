@@ -1,5 +1,5 @@
 - a conditional independence **measure**, testing $$X\perp Y\vert Z$$
 - regressing $$X$$ and $$Y$$ respectively on $$Z$$, and computing a test statistics formed from inner products of pairs of residuals
 - Motivation: Generalized Covariance Measure (GCM)
-	- We can always write $$X = f(Z)+\varepsilon$$ and $$Y = g(Z)+\xi$$, then the conditional covariance is $$Cov(X, Y\vert Z) = E(\varepsilon\xi^T\vert Z)$$
-	- If conditional independent, then $$E(\varepsilon \xi^T\vert Z) = 0$$
+	- We can always write $$X = f(Z)+\varepsilon$$ and $$Y = g(Z)+\xi$$, then the conditional covariance is $$Cov(X, Y\vert Z) = E(\varepsilon\xi^\top\vert Z)$$
+	- If conditional independent, then $$E(\varepsilon \xi^\top\vert Z) = 0$$ is a zero matrix
