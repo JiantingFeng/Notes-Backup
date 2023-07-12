@@ -2,4 +2,4 @@
 - regressing $$X$$ and $$Y$$ respectively on $$Z$$, and computing a test statistics formed from inner products of pairs of residuals
 - Motivation
 	- We can always write $$X = f(Z)+\varepsilon$$ and $$Y = g(Z)+\xi$$, then the conditional covariance is $$Cov(X, Y\vert Z) = E(\varepsilon\xi\vert Z)$$
-	- If conditional independent, then $$E(\$$
+	- If conditional independent, then $$E(\varepsilon \xi\vert Z) = 0$$
