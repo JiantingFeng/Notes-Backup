@@ -1,3 +1,3 @@
 - a conditional independence **measure**, testing $$X\perp Y\vert Z$$
 - regressing $$X$$ and $$Y$$ respectively on $$Z$$, and computing a test statistics formed from inner products of pairs of residuals
--
+- Motivat
