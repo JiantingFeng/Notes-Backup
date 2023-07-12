@@ -1,2 +1,2 @@
-- A conditional independence measure
--
+- A conditional independence **measure**, testing $$X\perp Y\vert Z$$
+- regressing $$X$$ and $$Y$$ respectively on $$Z$$
