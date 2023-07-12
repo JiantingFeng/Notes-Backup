@@ -1,4 +1,4 @@
 - a conditional independence **measure**, testing $$X\perp Y\vert Z$$
 - regressing $$X$$ and $$Y$$ respectively on $$Z$$, and computing a test statistics formed from inner products of pairs of residuals
 - Motivation
-	- We can always write $$X = f(Z)+\varepsilon$$ and $$Y = g(Z)+\xi$$
+	- We can always write $$X = f(Z)+\varepsilon$$ and $$Y = g(Z)+\xi$$, then the conditional covariance is $$Cov(X, Y\vert Z) = $$
