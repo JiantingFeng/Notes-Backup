@@ -2,4 +2,4 @@
 - regressing $$X$$ and $$Y$$ respectively on $$Z$$, and computing a test statistics formed from inner products of pairs of residuals
 - Motivation: Generalized Covariance Measure (GCM)
 	- We can always write $$X = f(Z)+\varepsilon$$ and $$Y = g(Z)+\xi$$, then the conditional covariance is $$Cov(X, Y\vert Z) = E(\varepsilon\xi^\top\vert Z)$$
-	- Under null hypothesis (conditional independent) $$E(\varepsilon \xi^\top\vert Z) = 0$$ is a zero matrix
+	- Under null hypothesis (conditional independent) $$E(\varepsilon \xi^\top\vert Z) \in \mathbb{R}^{d_X\times d_Y}$$ is a zero matrix
