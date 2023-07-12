@@ -1,3 +1,4 @@
 - a conditional independence **measure**, testing $$X\perp Y\vert Z$$
 - regressing $$X$$ and $$Y$$ respectively on $$Z$$, and computing a test statistics formed from inner products of pairs of residuals
-- Motivat
+- Motivation
+	- We can always write $$X = f(Z)+\varepsilon$$ and $$Y = g(Z)+\xi$$
