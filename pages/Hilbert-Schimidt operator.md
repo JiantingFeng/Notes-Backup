@@ -1,1 +1,2 @@
-- Hilbert-Schmidt operator is a bounded operator $$A: H\to\ H$$ that acts on a Hilbert space $$H$$ wi
+- Hilbert-Schmidt operator is a bounded operator $$A: H\to\ H$$ that acts on a Hilbert space $$H$$ with finite **Hilbert-Schmidt norm**
+	- $$\lVert A\rVert_\text{HS}^2 = \sum_{i\in I}\lVert Ae_i\rVert_{H}^2$$
