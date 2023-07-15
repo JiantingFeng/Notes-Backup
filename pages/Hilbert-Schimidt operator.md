@@ -1,0 +1,1 @@
+- Hilbert-Schmidt operator is a bounded operator $$A: H\to\ H$$ that acts on a Hilbert space $$H$$ wi
